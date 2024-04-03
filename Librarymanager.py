@@ -32,4 +32,6 @@ if remove_book in books_list:
 else:
     print("Book not found!")
     
-print(books_list)
+print("\nUpdated Books List:")
+for book in books_list:
+    print(book)
